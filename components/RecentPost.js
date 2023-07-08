@@ -27,7 +27,7 @@ const RecentPosts = () => {
         <div
           className='image_recent' 
         >
-          <Image src="/pic1.png" alt="Post 1" width={70} height={80} />
+          <Image src="/mixkit-man-holding-the-brim-of-a-yellow-fedora-that-covers-93-original.png" alt="Post 1" width={70} height={80} />
         </div>
         <div className={`text_recent ${hoveredIndex === 0 ? 'under' : ''}`}>
           <h3>The spectacle before us was indeed sublime</h3>
