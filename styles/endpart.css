@@ -1,0 +1,203 @@
+.auth_but{
+    display: inline-block;
+padding: 10px 20px;
+background-color: #000;
+color: #fff;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 1px;
+cursor: pointer;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+transition: background-color 0.3s, transform 0.3s;
+}
+.soc{
+    width:100px;
+}
+  .author-card {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 10px #0a0a0a;
+    box-shadow: 0 0 10px #020202;
+  }
+
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  .name {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .description {
+    margin-bottom: 20px;
+    font-size: 20px;
+color: gray;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+   
+  }
+
+  .social-links a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .social-links a:hover {
+    color: #1da1f2;
+  }
+
+
+/* subscribe section */
+
+  .subscribe-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 10px #0a0a0a;
+box-shadow: 0 0 10px #020202;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+
+  .sub_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sub_input {
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+  }
+
+  .sub_but {
+    padding: 10px 20px;
+    background-color: red;
+    color: #020202;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+/* comment section */
+.recent_border2{
+    height: 2px;
+    background: red;
+    content: '';
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    margin-left: 15px;
+    min-width: 30px;
+    
+}
+  .comment-section {
+    padding:20px;
+  margin-top: 20px;
+  -webkit-box-shadow: 0 0 10px #0a0a0a;
+  box-shadow: 0 0 10px #020202;
+}
+
+.predefined-comment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.comment-content {
+  flex: 1;
+}
+
+.name {
+  margin: 0;
+  font-size: 14px;
+}
+
+.comment {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.comment-box {
+  margin-top: 20px;
+}
+
+.title {
+  margin-bottom: 10px;
+  color:red;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
