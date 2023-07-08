@@ -11,7 +11,7 @@ const Section = () => {
       
       <div className="section">
         <div className="image">
-          <Image className='first_img' width={800} height={500} src="/pic1.png" alt="Image 1"  />
+          <Image className='first_img' width={800} height={500} src="/mixkit-man-holding-the-brim-of-a-yellow-fedora-that-covers-93-original.png" alt="Image 1"  />
         </div>
         <div className="text">
           <h2 className='hed'>Far far away, behind the word mountains</h2>
